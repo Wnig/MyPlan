@@ -1,0 +1,13 @@
+<view class="userinfo-content">
+  <view class="userinfo">
+    <block wx:if="{{canIUseOpenData}}">
+      <view class="userinfo-avatar">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class="info-cont">
+        <open-data type="userNickName"></open-data>
+        <text class="date-time">2023年4月14日</text>
+      </view>
+    </block>
+  </view>
+</view>
